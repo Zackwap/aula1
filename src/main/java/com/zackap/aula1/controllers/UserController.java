@@ -29,7 +29,7 @@ public class UserController {
 
     }
 
-    @PostMapping ('v')
+    @PostMapping 
     public User insertUser(@RequestBody User u){
         User result = urepository.save(u);
 
